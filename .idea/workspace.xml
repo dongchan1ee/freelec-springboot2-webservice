@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="Test Code 작성">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/web/dto/HelloResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/dto/HelloResponseDtoTest.java" afterDir="false" />
+    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="Dto 작성 20231211">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/web/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/web/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/HelloControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/HelloControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,16 +84,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -105,7 +103,7 @@
       <recent name="com.jojoldu.book.springboot.web" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Application">
+  <component name="RunManager" selected="JUnit.HelloControllerTest.helloDto가_리턴된다">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.Application" />
       <module name="freelec-springboot2-webservice.main" />
@@ -119,7 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloControllerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HelloControllerTest.helloDto가_리턴된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="freelec-springboot2-webservice.test" />
       <extension name="coverage">
         <pattern>
@@ -129,7 +127,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.jojoldu.book.springboot.web" />
       <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.web.HelloControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="helloDto가_리턴된다" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HelloControllerTest.helloDto가_리턴된다" />
         <item itemvalue="애플리케이션.Application" />
         <item itemvalue="JUnit.HelloResponseDtoTest.롬복_기능_테스트" />
         <item itemvalue="JUnit.HelloResponseDtoTest" />
         <item itemvalue="JUnit.HelloControllerTest.hello가_리턴된다" />
-        <item itemvalue="JUnit.HelloControllerTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702217495082</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dto 작성 20231211">
+      <created>1702220680424</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702220680424</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,7 +237,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="Test Code 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Code 작성" />
+    <MESSAGE value="Dto 작성 20231211" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dto 작성 20231211" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
