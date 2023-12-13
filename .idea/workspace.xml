@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="Dto ControllerTest 작성">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/domain/posts/Posts.java" afterDir="false" />
+    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="JPA추가 및 ENTITY 생성">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/domain/posts/PostsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/domain/posts/PostRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +64,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -74,7 +76,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2ZLrV2buY8sr44KlCjEhT52Mgl2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -103,7 +105,7 @@
       <recent name="com.jojoldu.book.springboot.web" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HelloControllerTest.helloDto가_리턴된다">
+  <component name="RunManager" selected="JUnit.PostRepositoryTest">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.Application" />
       <module name="freelec-springboot2-webservice.main" />
@@ -133,37 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloControllerTest.hello가_리턴된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="freelec-springboot2-webservice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jojoldu.book.springboot.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jojoldu.book.springboot.web" />
-      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.web.HelloControllerTest" />
-      <option name="METHOD_NAME" value="hello가_리턴된다" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloResponseDtoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="freelec-springboot2-webservice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jojoldu.book.springboot.web.dto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jojoldu.book.springboot.web.dto" />
-      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.web.dto.HelloResponseDtoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HelloResponseDtoTest.롬복_기능_테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="freelec-springboot2-webservice.test" />
       <extension name="coverage">
@@ -180,13 +151,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PostRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="freelec-springboot2-webservice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jojoldu.book.springboot.domain.posts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jojoldu.book.springboot.domain.posts" />
+      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.domain.posts.PostRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostRepositoryTest.게시글저장_불러오기" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="freelec-springboot2-webservice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jojoldu.book.springboot.domain.posts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jojoldu.book.springboot.domain.posts" />
+      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.domain.posts.PostRepositoryTest" />
+      <option name="METHOD_NAME" value="게시글저장_불러오기" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PostRepositoryTest" />
+        <item itemvalue="JUnit.PostRepositoryTest.게시글저장_불러오기" />
         <item itemvalue="JUnit.HelloControllerTest.helloDto가_리턴된다" />
         <item itemvalue="애플리케이션.Application" />
         <item itemvalue="JUnit.HelloResponseDtoTest.롬복_기능_테스트" />
-        <item itemvalue="JUnit.HelloResponseDtoTest" />
-        <item itemvalue="JUnit.HelloControllerTest.hello가_리턴된다" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702309500130</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="JPA추가 및 ENTITY 생성">
+      <created>1702311014919</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702311014919</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,7 +255,8 @@
     <MESSAGE value="Test Code 작성" />
     <MESSAGE value="Dto 작성 20231211" />
     <MESSAGE value="Dto ControllerTest 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dto ControllerTest 작성" />
+    <MESSAGE value="JPA추가 및 ENTITY 생성" />
+    <option name="LAST_COMMIT_MESSAGE" value="JPA추가 및 ENTITY 생성" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
