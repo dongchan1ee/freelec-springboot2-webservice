@@ -21,6 +21,7 @@ public class PostApiController {
     }
 
     @PutMapping("/api/v1/posts/{id}")
+    //@PathVariable HTTP 요청의 URL 경로에서 특정 변수 값을 추출하는 데 사용 {id}
     public Long update(@PathVariable Long id, @RequestBody PostsUpdateRequestDto requestDto) {
         return postsService.update(id, requestDto);
     }
