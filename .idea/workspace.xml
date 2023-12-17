@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="수정, 조회기능 생성">
+    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="수정, 조회기능 테스트">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/domain/BaseTimeEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/web/PostApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/web/PostApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/domain/posts/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/domain/posts/Posts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/domain/posts/PostRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/domain/posts/PostRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/PostApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/PostApiControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,19 +86,20 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Console"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -104,18 +109,16 @@
       <recent name="com.jojoldu.book.springboot.web.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostApiControllerTest.Posts_수정된다">
-    <configuration name="PostApiControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="freelec-springboot2-webservice.test" />
+  <component name="RunManager" selected="JUnit.PostRepositoryTest">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.Application" />
+      <module name="freelec-springboot2-webservice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jojoldu.book.springboot.web.*" />
+          <option name="PATTERN" value="com.jojoldu.book.springboot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.jojoldu.book.springboot.web" />
-      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.web.PostApiControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,7 +159,7 @@
       <module name="freelec-springboot2-webservice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jojoldu.book.springboot.web.dto.*" />
+          <option name="PATTERN" value="com.jojoldu.book.springboot.domain.posts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +170,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PostRepositoryTest.BaseTimeEntity_등록" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="freelec-springboot2-webservice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jojoldu.book.springboot.domain.posts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jojoldu.book.springboot.domain.posts" />
+      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.domain.posts.PostRepositoryTest" />
+      <option name="METHOD_NAME" value="BaseTimeEntity_등록" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PostRepositoryTest.게시글저장_불러오기" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="freelec-springboot2-webservice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jojoldu.book.springboot.web.dto.*" />
+          <option name="PATTERN" value="com.jojoldu.book.springboot.domain.posts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PostApiControllerTest.Posts_수정된다" />
-        <item itemvalue="JUnit.PostApiControllerTest.Posts_등록된다" />
-        <item itemvalue="JUnit.PostApiControllerTest" />
         <item itemvalue="JUnit.PostRepositoryTest" />
+        <item itemvalue="JUnit.PostRepositoryTest.BaseTimeEntity_등록" />
         <item itemvalue="JUnit.PostRepositoryTest.게시글저장_불러오기" />
+        <item itemvalue="애플리케이션.Application" />
+        <item itemvalue="JUnit.PostApiControllerTest.Posts_등록된다" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702710212082</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="수정, 조회기능 테스트">
+      <created>1702712287110</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702712287110</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,22 +315,8 @@
     <MESSAGE value="dto, controller, service 생성" />
     <MESSAGE value="PostApiControllerTest 생성" />
     <MESSAGE value="수정, 조회기능 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="수정, 조회기능 생성" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/Application.java</url>
-          <line>7</line>
-          <properties class="com.jojoldu.book.springboot.Application" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="수정, 조회기능 테스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="수정, 조회기능 테스트" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

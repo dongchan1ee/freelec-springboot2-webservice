@@ -90,6 +90,7 @@ public class PostApiControllerTest {
         HttpEntity<PostsUpdateRequestDto> requestEntity = new HttpEntity<>(requestDto);
 
         //when
+        //exchange 메서드는 HTTP 요청을 보내고 응답을 받는 메서드입니다.
         ResponseEntity<Long> responseEntity = restTemplate.exchange(url, HttpMethod.PUT, requestEntity, Long.class);
 
         //then
