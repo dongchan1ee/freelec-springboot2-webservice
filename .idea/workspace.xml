@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="게시글 삭제 기능 추가.">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-oauth.properties" afterDir="false" />
+    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="oauth2 설정">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703089926292</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="oauth2 설정">
+      <created>1703331678396</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1703331678396</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -359,7 +363,8 @@
     <MESSAGE value="전체 조회 화면 만들기" />
     <MESSAGE value="게시글 수정화면 만들기" />
     <MESSAGE value="게시글 삭제 기능 추가." />
-    <option name="LAST_COMMIT_MESSAGE" value="게시글 삭제 기능 추가." />
+    <MESSAGE value="oauth2 설정" />
+    <option name="LAST_COMMIT_MESSAGE" value="oauth2 설정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
