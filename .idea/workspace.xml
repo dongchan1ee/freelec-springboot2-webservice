@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="oauth2 설정">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment=".gitignore 수정" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -333,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703331678396</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary=".gitignore 수정">
+      <created>1703331795174</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1703331795174</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -364,7 +369,8 @@
     <MESSAGE value="게시글 수정화면 만들기" />
     <MESSAGE value="게시글 삭제 기능 추가." />
     <MESSAGE value="oauth2 설정" />
-    <option name="LAST_COMMIT_MESSAGE" value="oauth2 설정" />
+    <MESSAGE value=".gitignore 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore 수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
