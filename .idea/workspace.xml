@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="lombok annotation 수정">
+    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="JUNIT 다운그레이드 테스트">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
@@ -368,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704457492169</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="JUNIT 다운그레이드 테스트">
+      <created>1705246151030</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1705246151030</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -406,7 +413,8 @@
     <MESSAGE value="Naver 로그인 구현" />
     <MESSAGE value="기존 테스트에 시큐리티 적용하기" />
     <MESSAGE value="Data Browser 플러그인 설치" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data Browser 플러그인 설치" />
+    <MESSAGE value="JUNIT 다운그레이드 테스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="JUNIT 다운그레이드 테스트" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
