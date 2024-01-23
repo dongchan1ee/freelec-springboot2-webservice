@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="test 코드 수정">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="travis.yml파일 추가">
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -404,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705248322525</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="travis.yml파일 추가">
+      <created>1706024232623</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1706024232623</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,7 +425,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dto 작성 20231211" />
     <MESSAGE value="Dto ControllerTest 작성" />
     <MESSAGE value="JPA추가 및 ENTITY 생성" />
     <MESSAGE value="Repository 생성 및 테스트" />
@@ -444,7 +449,8 @@
     <MESSAGE value="JUNIT 버전업그레이드" />
     <MESSAGE value="useJUnitPlatform 주석처리" />
     <MESSAGE value="test 코드 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 코드 수정" />
+    <MESSAGE value="travis.yml파일 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="travis.yml파일 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
