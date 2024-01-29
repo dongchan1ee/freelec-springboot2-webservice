@@ -14,7 +14,7 @@ cache:
 
 script: "./gradlew clean build"
 
-before_install:
+before_install: #실행 권한부여
   - chmod +x gradlew
 
 before_deploy :
