@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="mail 변경">
+    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="AWS KEY 등록">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
@@ -418,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706025361979</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="AWS KEY 등록">
+      <created>1706543905665</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1706543905665</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -433,7 +440,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="JPA추가 및 ENTITY 생성" />
     <MESSAGE value="Repository 생성 및 테스트" />
     <MESSAGE value="dto, controller, service 생성" />
     <MESSAGE value="PostApiControllerTest 생성" />
@@ -458,7 +464,8 @@
     <MESSAGE value="test 코드 수정" />
     <MESSAGE value="travis.yml파일 추가" />
     <MESSAGE value="mail 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="mail 변경" />
+    <MESSAGE value="AWS KEY 등록" />
+    <option name="LAST_COMMIT_MESSAGE" value="AWS KEY 등록" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
