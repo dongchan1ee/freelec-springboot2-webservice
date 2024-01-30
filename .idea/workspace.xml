@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="appspec.yml 파일 추가">
+    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment=".triavis.yml파일에 codeDeploy 설정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
@@ -453,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706631541738</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary=".triavis.yml파일에 codeDeploy 설정">
+      <created>1706631970938</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1706631970938</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -468,7 +475,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="수정, 조회기능 테스트" />
     <MESSAGE value="생성시간, 수정시간 자동화" />
     <MESSAGE value=".mustache 화면과 저장기능 생성" />
     <MESSAGE value="전체 조회 화면 만들기" />
@@ -493,7 +499,8 @@
     <MESSAGE value="travis CI 테스트" />
     <MESSAGE value="bucket명 변경" />
     <MESSAGE value="appspec.yml 파일 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="appspec.yml 파일 추가" />
+    <MESSAGE value=".triavis.yml파일에 codeDeploy 설정" />
+    <option name="LAST_COMMIT_MESSAGE" value=".triavis.yml파일에 codeDeploy 설정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
