@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment=".travis.yml 파일 수정">
-      <change beforePath="$PROJECT_DIR$/appspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/appspec.yml" afterDir="false" />
+    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="appspec.yml 파일 수정">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -480,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707057841187</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="appspec.yml 파일 수정">
+      <created>1707058111940</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1707058111940</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -495,7 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="게시글 수정화면 만들기" />
     <MESSAGE value="게시글 삭제 기능 추가." />
     <MESSAGE value="oauth2 설정" />
     <MESSAGE value=".gitignore 수정" />
@@ -520,7 +527,8 @@
     <MESSAGE value="region 오타 수정" />
     <MESSAGE value="deploy.sh 파일 추가" />
     <MESSAGE value=".travis.yml 파일 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value=".travis.yml 파일 수정" />
+    <MESSAGE value="appspec.yml 파일 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="appspec.yml 파일 수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
