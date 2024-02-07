@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="무중단 배포를 진행할 스크립트 5개 추가">
+    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="Jar 버전값 자동변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/switch.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/switch.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -504,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707323792297</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Jar 버전값 자동변경">
+      <created>1707324267899</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1707324267899</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -519,7 +526,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Annotation 기반으로 개선" />
     <MESSAGE value="세션 저장소 - DB 사용" />
     <MESSAGE value="Naver 로그인 구현" />
     <MESSAGE value="기존 테스트에 시큐리티 적용하기" />
@@ -544,7 +550,8 @@
     <MESSAGE value="profile API 추가" />
     <MESSAGE value="무중단 배포를 위한 profile 추가" />
     <MESSAGE value="무중단 배포를 진행할 스크립트 5개 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="무중단 배포를 진행할 스크립트 5개 추가" />
+    <MESSAGE value="Jar 버전값 자동변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jar 버전값 자동변경" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
