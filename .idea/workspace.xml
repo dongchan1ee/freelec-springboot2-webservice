@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="명령어 변경">
+    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="문자열 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/profile.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/profile.sh" afterDir="false" />
     </list>
@@ -518,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707325049166</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="문자열 수정">
+      <created>1707327226099</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1707327226099</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -533,7 +540,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Naver 로그인 구현" />
     <MESSAGE value="기존 테스트에 시큐리티 적용하기" />
     <MESSAGE value="Data Browser 플러그인 설치" />
     <MESSAGE value="JUNIT 다운그레이드 테스트" />
@@ -558,7 +564,8 @@
     <MESSAGE value="무중단 배포를 진행할 스크립트 5개 추가" />
     <MESSAGE value="Jar 버전값 자동변경" />
     <MESSAGE value="명령어 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="명령어 변경" />
+    <MESSAGE value="문자열 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="문자열 수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
