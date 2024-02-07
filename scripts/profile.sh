@@ -17,7 +17,7 @@ function find_idle_profile()
   fi
 
   #엔진엑스와 연결되지 않은 PROFILE
-  if [ ${CURRENT_PROFILE} == real1 ]
+  if [ ${CURRENT_PROFILE} == "real1" ]
 
   then
     IDLE_PROFILE=real2
@@ -35,7 +35,7 @@ function find_idle_port()
 
   IDLE_PROFILE=$(find_idle_profile)
 
-  if [ ${IDLE_PROFILE} == real1 ]
+  if [ ${IDLE_PROFILE} == "real1" ]
 
   then
     echo "8081"
