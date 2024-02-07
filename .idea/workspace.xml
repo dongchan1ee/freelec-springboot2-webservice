@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="appspec.yml 파일 수정">
+    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="build.grade version 변경">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/web/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/ProfileControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/ProfileControllerUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/config/auth/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/config/auth/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,21 +37,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="freelec-springboot2-webservice" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="freelec-springboot2-webservice" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="freelec-springboot2-webservice" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="freelec-springboot2-webservice" type="f1a62948:ProjectNode" />
-                <item name="실행 구성" type="7b0102dc:RunConfigurationsNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -59,10 +47,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -106,58 +94,7 @@
       <recent name="com.jojoldu.book.springboot.web.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostRepositoryTest">
-    <configuration name="freelec-springboot2-webservice [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="HelloControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="freelec-springboot2-webservice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jojoldu.book.springboot.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jojoldu.book.springboot.web" />
-      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.web.HelloControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IndexControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="freelec-springboot2-webservice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jojoldu.book.springboot.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jojoldu.book.springboot.web" />
-      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.web.IndexControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ProfileControllerUnitTest.profile은_인증없이_호출된다">
     <configuration name="IndexControllerTest.메인페이지_로딩" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="freelec-springboot2-webservice.test" />
       <extension name="coverage">
@@ -189,13 +126,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProfileControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="freelec-springboot2-webservice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jojoldu.book.springboot.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jojoldu.book.springboot.web" />
+      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.web.ProfileControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfileControllerTest.real_profile이_조회된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="freelec-springboot2-webservice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jojoldu.book.springboot.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jojoldu.book.springboot.web" />
+      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.web.ProfileControllerTest" />
+      <option name="METHOD_NAME" value="real_profile이_조회된다" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfileControllerUnitTest.profile은_인증없이_호출된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="freelec-springboot2-webservice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jojoldu.book.springboot.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jojoldu.book.springboot.web" />
+      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.web.ProfileControllerUnitTest" />
+      <option name="METHOD_NAME" value="profile은_인증없이_호출된다" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProfileControllerUnitTest.profile은_인증없이_호출된다" />
+        <item itemvalue="JUnit.ProfileControllerTest.real_profile이_조회된다" />
+        <item itemvalue="JUnit.ProfileControllerTest" />
         <item itemvalue="JUnit.PostRepositoryTest" />
         <item itemvalue="JUnit.IndexControllerTest.메인페이지_로딩" />
-        <item itemvalue="JUnit.IndexControllerTest" />
-        <item itemvalue="JUnit.HelloControllerTest" />
-        <item itemvalue="Gradle.freelec-springboot2-webservice [test]" />
       </list>
     </recent_temporary>
   </component>
@@ -488,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707058111940</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="build.grade version 변경">
+      <created>1707058878978</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1707058878978</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -503,7 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="게시글 삭제 기능 추가." />
     <MESSAGE value="oauth2 설정" />
     <MESSAGE value=".gitignore 수정" />
     <MESSAGE value="Google 로그인 연동" />
@@ -528,7 +518,8 @@
     <MESSAGE value="deploy.sh 파일 추가" />
     <MESSAGE value=".travis.yml 파일 수정" />
     <MESSAGE value="appspec.yml 파일 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="appspec.yml 파일 수정" />
+    <MESSAGE value="build.grade version 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="build.grade version 변경" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

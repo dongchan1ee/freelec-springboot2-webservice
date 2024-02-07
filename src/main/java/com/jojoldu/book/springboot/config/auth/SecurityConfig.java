@@ -19,13 +19,14 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .headers().frameOptions().disable()
                 .and()
                 .authorizeRequests()
-                .antMatchers("/", "/css/**", "/images/**", "/js/**", "/h2-console/**").permitAll()
+                .antMatchers("/", "/css/**", "/images/**", "/js/**", "/h2-console/**", "/profile").permitAll()
                 .antMatchers("/api/v1/**").hasRole(Role.USER.name())
                 .anyRequest().authenticated()
                 .and()
                 .logout().logoutSuccessUrl("/")
                 .and()
                 .oauth2Login().userInfoEndpoint().userService(customOAuth2UserService);
+
         //소셜로그인 성공 시 후속 조치를 진행할 인터페이스 구현체 등록
     }
 }
