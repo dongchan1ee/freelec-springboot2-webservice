@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="profile API 추가">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-real1.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-real2.properties" afterDir="false" />
+    <list default="true" id="bed49110-c3a7-4cde-b38b-7e75c85fa256" name="변경" comment="무중단 배포를 위한 profile 추가">
+      <change afterPath="$PROJECT_DIR$/scripts/health.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/profile.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/stop.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/switch.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/appspec.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -484,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707305981258</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="무중단 배포를 위한 profile 추가">
+      <created>1707307865224</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1707307865224</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,7 +510,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=".gitignore 수정" />
     <MESSAGE value="Google 로그인 연동" />
     <MESSAGE value="Annotation 기반으로 개선" />
     <MESSAGE value="세션 저장소 - DB 사용" />
@@ -524,7 +534,8 @@
     <MESSAGE value="appspec.yml 파일 수정" />
     <MESSAGE value="build.grade version 변경" />
     <MESSAGE value="profile API 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="profile API 추가" />
+    <MESSAGE value="무중단 배포를 위한 profile 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="무중단 배포를 위한 profile 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
